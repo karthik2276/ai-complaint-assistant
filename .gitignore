@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# HuggingFace model cache
+.cache/
+
+# Endee DB (auto-created at runtime by seed script)
+data/complaints.jsonl
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Logs
+*.log
